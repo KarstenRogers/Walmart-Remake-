@@ -8,19 +8,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Walmart</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="_css/reset.css" rel="stylesheet" type="text/css" media="screen">
   <link href="_css/styles.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
   <div class="navagation">
     <ul class="nav">
-      <li style="float:left"><a href="#logo"><img src="images/walmart.jpg" style="width: 28px;"></a></li>
-      <li style="float:left"><a href="#bars"><i class="fa fa-bars fa-lg"></i></a></li>
-      <input type="text" placeholder="Search..">
-      <li style="float:right"><a class="active" href="#about"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-      <li style="float:right"><a class="active" href="#about"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a></li>
-      <li style="float:right"><a class="active" href="#about"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></li>
-      <li style="float:right"><a class="active" href="#about"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i></a></li>
+      <li>
+        <ul class="nav-box nav-box-left">
+          <li><a href="#logo" id="logo"><img src="images/walmart.jpg"></a></li>
+          <li><a href="#bars" id="menu-bar"><i class="fa fa-bars fa-lg"></i></a></li>
+        </ul>
+      </li>
+      <li><input type="text" placeholder="Search.."></li>
+      <li>
+        <ul class="nav-box nav-box-right">
+          <li><a class="active" href="#about"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="active" href="#about"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="active" href="#about"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="active" href="#about"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+      </li>
     </ul>
   </div>
 

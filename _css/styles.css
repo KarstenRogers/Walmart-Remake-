@@ -1,28 +1,6 @@
 .navagation {
-  display: flex;
-    justify-content: center;
-    margin-top: -8px;
-}
- 
- .fa-bars{
-  color: aqua;
-  margin-top: 10px;
-}
-.fa-cutlery{
-  color: white;
-  margin-top: 10px;
-}
-.fa-user {
-  color: white;
-  margin-top: 10px;
-}
-.fa-map-marker {
-  color: white;
-  margin-top: 10px;
-}
-.fa-shopping-cart {
-  color: white;
-  margin-top: 10px;
+  width: 100%;
+    /* margin-top: -8px; */
 }
 
 ul input {
@@ -31,25 +9,65 @@ ul input {
   width: 624px;
 }
 
-.nav{
+.nav {
+  display: flex;
+  justify-content: space-between;
   list-style:none;
   margin:0;
   text-align:center;
   background-color: rgb(8, 28, 58);
-  max-width: 1000px;
-  height: 45px;
-}
-.nav li{
-  display:inline;
-}
-.nav a{
-  display:inline-block;
-  padding:10px;
+  height: 52px;
+  width: 100%;
 }
 
-.main-section {
-  display: flex;
-    justify-content: center;
+.nav-box li {
+  display: inline-block;
+}
+
+.nav a {
+  padding: 0 10px;
+}
+
+#menu-bar, .nav-box-right li a {
+  line-height: 52px;
+  height: 52px;
+}
+
+.nav-box-right li a {
+  color: #fff;
+}
+
+.fa-shopping-cart:hover:before {
+  content: "Cart";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-user:hover:before {
+  content: "Account";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-map-marker:hover:before {
+  content: "Stores";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-cutlery:hover:before {
+  content: "Grocery";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#menu-bar {
+  color: aqua;
+}
+
+#logo img {
+  vertical-align: middle;
+  width: 28px;
 }
 
 .main {
@@ -57,6 +75,5 @@ ul input {
   color: white;
   display: flex;
     justify-content: space-evenly;
-    width: 59.6%;
     height: 300px;
 }
