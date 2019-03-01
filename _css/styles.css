@@ -1,6 +1,5 @@
 .navagation {
   width: 100%;
-    /* margin-top: -8px; */
 }
 
 ul input {
@@ -76,4 +75,14 @@ ul input {
   display: flex;
     justify-content: space-evenly;
     height: 300px;
+}
+
+.left-content {
+  text-align: center;
+}
+
+.right-content {
+  text-align: center;
+  font-size: 44px;
+  margin-top: 57px;
 }
