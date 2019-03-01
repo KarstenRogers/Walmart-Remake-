@@ -74,15 +74,17 @@ ul input {
   color: white;
   display: flex;
     justify-content: space-evenly;
-    height: 300px;
+    height: 400px;
 }
 
 .left-content {
   text-align: center;
+  margin-top: 76px;
 }
 
 .right-content {
   text-align: center;
   font-size: 44px;
-  margin-top: 57px;
+  margin-top: 133px;
+  font-family: 'Roboto', sans-serif;
 }
