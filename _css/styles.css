@@ -93,11 +93,16 @@ ul input {
   margin-top: 50px;
 }
 
-.pickup {
-  margin-left: 50px;
-  display: flex;
-  width: 27.333%;
-  border-right: 1px solid lightgray;
+.column {
+  float: left;
+  width: 27.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .links h1{
@@ -126,10 +131,50 @@ ul input {
 
 .icon-center {
   display: flex;
-  width: 27%;
+  width: 64%;
   justify-content: center;
   margin-bottom: 10px;
   text-decoration: underline;
   text-decoration-color: red;
   font-size: 30px;
+}
+
+ .one {
+  margin-left: 80px;
+  border-right: 1px solid lightgray;
+}
+
+.bag{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.two {
+  margin-left: 80px;
+  border-right: 1px solid lightgray;
+}
+
+.icon-star {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.trending{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.three-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.three-img img {
+  width: 90px;
+  height: 90px;
 }
