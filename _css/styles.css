@@ -96,6 +96,8 @@ ul input {
 .pickup {
   margin-left: 50px;
   display: flex;
+  width: 27.333%;
+  border-right: 1px solid lightgray;
 }
 
 .links h1{
@@ -106,4 +108,28 @@ ul input {
 .links p{
   margin-top: -28px;
   text-decoration: underline;
+}
+
+.location {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.store-location {
+  text-decoration: underline;
+}
+
+.location p {
+  margin-top: 10px;
+}
+
+.icon-center {
+  display: flex;
+  width: 27%;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-size: 30px;
 }
