@@ -92,3 +92,18 @@ ul input {
 .main-body {
   margin-top: 50px;
 }
+
+.pickup {
+  margin-left: 50px;
+  display: flex;
+}
+
+.links h1{
+  line-height: 88px;
+  font-size: 17px;
+}
+
+.links p{
+  margin-top: -28px;
+  text-decoration: underline;
+}
