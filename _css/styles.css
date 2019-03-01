@@ -17,6 +17,7 @@ ul input {
   background-color: rgb(8, 28, 58);
   height: 52px;
   width: 100%;
+  position: fixed;
 }
 
 .nav-box li {
@@ -61,7 +62,7 @@ ul input {
 }
 
 #menu-bar {
-  color: aqua;
+  color: rgb(54, 188, 225);
 }
 
 #logo img {
@@ -135,12 +136,12 @@ ul input {
   justify-content: center;
   margin-bottom: 10px;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: rgb(238, 90, 83);
   font-size: 30px;
 }
 
  .one {
-  margin-left: 80px;
+  margin-left: 90px;
   border-right: 1px solid lightgray;
 }
 
@@ -150,7 +151,7 @@ ul input {
 }
 
 .two {
-  margin-left: 80px;
+  margin: 0px 20px;
   border-right: 1px solid lightgray;
 }
 
@@ -159,7 +160,7 @@ ul input {
   justify-content: center;
   font-size: 30px;
   text-decoration: underline;
-  text-decoration-color: aqua;
+  text-decoration-color: rgb(54, 188, 225);
 }
 
 .trending{
@@ -177,4 +178,41 @@ ul input {
 .three-img img {
   width: 90px;
   height: 90px;
+}
+
+.icon-truck {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 186, 30)
+}
+
+.delivery h1 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.boxes img {
+  width: 120px;
+  height: 160px;
+}
+
+.text-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.delivery h4 {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.delivery p {
+  margin-left: 20px;
+  margin-top: 35px;
+  text-decoration: underline;
 }
