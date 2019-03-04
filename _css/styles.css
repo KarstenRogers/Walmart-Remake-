@@ -230,7 +230,6 @@ ul input {
 }
 
 .category {
-  font-size: 20px;
   margin-bottom: 50px;
 }
 
@@ -245,6 +244,20 @@ ul input {
 }
 
 .items img {
-  width: 250px;
-  height: 140px;
+  width: 225px;
+  height: 200px;
+}
+
+.items-two {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.items-two img {
+  width: 225px;
+  height: 200px;
+}
+
+.items p {
+  margin-bottom: 100px;
 }
