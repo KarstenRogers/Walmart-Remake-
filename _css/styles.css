@@ -216,3 +216,22 @@ ul input {
   margin-top: 35px;
   text-decoration: underline;
 }
+
+.categorys p {
+  /* s */
+}
+
+.categorys h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 55px;
+}
+
+.ad {
+  background-color:  rgb(255, 186, 30);
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100px;
+  margin-top: 100px;
+}
