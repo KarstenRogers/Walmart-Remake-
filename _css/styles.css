@@ -287,3 +287,16 @@ ul input {
   margin-top: -53px;
   height: 120px;
 }
+
+@media only screen and (max-width:950px) {
+
+  .nav-box-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  .search-box {
+    display: none;
+  }
+}
