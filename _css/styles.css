@@ -258,3 +258,18 @@ ul input {
   margin-left: 5px;
   color: black;
 }
+
+.columns {
+  float: left;
+  width: 33.33%;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rows {
+  text-align: center;
+}
