@@ -297,6 +297,16 @@ ul input {
 
 @media only screen and (max-width:750px) {
   .search-box {
+    width: auto;
+  }
+
+  .right-content {
     display: none;
+  }
+}
+
+@media only screen and (max-width:959px) {
+  .row {
+    grid-template-columns: 1fr;
   }
 }
