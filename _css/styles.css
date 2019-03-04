@@ -231,10 +231,20 @@ ul input {
 
 .category {
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .see-more {
   font-size: 20px;
   text-decoration: underline;
   margin-right: 5px;
+}
+
+.items {
+  text-align: center;
+}
+
+.items img {
+  width: 250px;
+  height: 140px;
 }
