@@ -290,7 +290,7 @@ ul input {
 
 @media only screen and (max-width:950px) {
 
-  .nav-box-right {
+  .no-show {
     display: none;
   }
 }
