@@ -303,13 +303,48 @@ ul input {
   .right-content {
     display: none;
   }
-}
 
-@media only screen and (max-width:959px) {
   .row {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
-    grid-row-gap: 100px;
-  }
-}
+    width: 50%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .clearleft, .row
+     {
+       clear:none !important;
+     }
+    }
+
+    .row {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      margin: 6px;
+      padding: 16px;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      flex-direction: column;
+      color: white;
+      box-sizing:border-box;
+    }
+    
+    @media (max-width:767px) {
+      .column {
+        flex-basis: calc(50% - 12px);
+      }
+    }
+    
+    @media (max-width:460px) {
+      .column {
+        flex-basis: 100%;
+      }
