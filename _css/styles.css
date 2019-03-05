@@ -336,5 +336,11 @@ ul input {
 	.row .column {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
-	}
+  }
+  
+  .ad {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
 }
