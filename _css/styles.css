@@ -311,6 +311,7 @@ ul input {
   flex-wrap: wrap;
   border-right: none;
   flex-basis: auto;
+  margin: 10px 0px;
   }
 
   .column {
@@ -330,6 +331,7 @@ ul input {
   .trending {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px 5px;
   }
 
   .three-img {
