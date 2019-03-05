@@ -16,7 +16,6 @@ ul input {
   text-align:center;
   background-color: rgb(8, 28, 58);
   height: 52px;
-  width: 100%;
   position: fixed;
 }
 
@@ -296,51 +295,6 @@ ul input {
   .right-content {
     display: none;
   }
-
-  .row {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-right: none;
-  flex-basis: auto;
-  margin: 10px 0px;
-  }
-
-  .column {
-    border-right: none;
-  }
-
-  .bag {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .location {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .trending {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 5px;
-  }
-
-  .three-img {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .text-boxes {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .boxes {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 @media only screen and (max-width:876px) {
@@ -353,4 +307,34 @@ ul input {
   .search-box {
     width: auto;
   }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .row {
+    display: grid;
+  }
+} */
+
+@media screen and (max-width: 980px) {
+  .row .column {
+    border-right: none;
+		margin-bottom: 5px;
+    flex-basis: 40%;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+
+  .bag {
+    display: flex;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 680px) {
+	.row .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
 }
