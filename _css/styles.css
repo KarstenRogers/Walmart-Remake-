@@ -290,16 +290,9 @@ ul input {
 
 @media only screen and (max-width:950px) {
 
-  .nav-box-right {
-    display: none;
-  }
 }
 
 @media only screen and (max-width:750px) {
-  .search-box {
-    width: auto;
-  }
-
   .right-content {
     display: none;
   }
@@ -347,5 +340,17 @@ ul input {
   .boxes {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width:876px) {
+  .no-show {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:876px) {
+  .search-box {
+    width: auto;
   }
 }
