@@ -305,46 +305,45 @@ ul input {
   }
 
   .row {
-    width: 50%;
-    float: left;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
-    .clearleft, .row
-     {
-       clear:none !important;
-     }
-    }
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-right: none;
+  flex-basis: auto;
+  }
 
-    .row {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    
-    .column {
-      margin: 6px;
-      padding: 16px;
-      background-color: red;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex: 1;
-      flex-direction: column;
-      color: white;
-      box-sizing:border-box;
-    }
-    
-    @media (max-width:767px) {
-      .column {
-        flex-basis: calc(50% - 12px);
-      }
-    }
-    
-    @media (max-width:460px) {
-      .column {
-        flex-basis: 100%;
-      }
+  .column {
+    border-right: none;
+  }
+
+  .bag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .location {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trending {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .three-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
