@@ -290,7 +290,7 @@ ul input {
 
 @media only screen and (max-width:950px) {
 
-  .no-show {
+  .nav-box-right {
     display: none;
   }
 }
@@ -307,6 +307,9 @@ ul input {
 
 @media only screen and (max-width:959px) {
   .row {
+    display: grid;
     grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
   }
 }
