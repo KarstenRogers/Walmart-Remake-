@@ -337,10 +337,23 @@ ul input {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
   }
-  
-  .ad {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+
+  .items {
+    width: 500%;
+    display: inline-grid;
+  }
+
+  .shop {
+    margin-left: 100px;
+  }
+
+  .see-more {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .items {
+    
   }
 }
