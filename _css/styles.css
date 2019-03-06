@@ -354,14 +354,8 @@ ul input {
 
 @media screen and (max-width: 1115px) {
   .items {
-    
-  }
-
-  .shop {
-    margin-left: 100px;
-  }
-
-  .see-more {
-    margin-top: 12px;
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    width: -webkit-fill-available;
   }
 }
