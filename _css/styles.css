@@ -354,10 +354,7 @@ ul input {
 
 @media screen and (max-width: 1115px) {
   .items {
-    columns: 2;
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
+    
 
   }
 }
