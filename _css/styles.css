@@ -356,4 +356,12 @@ ul input {
   .items {
     
   }
+
+  .shop {
+    margin-left: 100px;
+  }
+
+  .see-more {
+    margin-top: 12px;
+  }
 }
