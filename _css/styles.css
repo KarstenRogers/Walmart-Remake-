@@ -298,6 +298,29 @@ ul input {
   height: auto;
 }
 
+.windex {
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.blue-box {
+  float: right;
+  background-color: rgb(0, 91, 140);
+  color: white;
+  padding-top: 100px;
+  padding-left: 17px;
+}
+
+.blue-box h1 {
+  font-size: 36px;
+}
+
+.blue-box p {
+  font-size: 20px;
+
+}
+
 @media only screen and (max-width:950px) {
 
 }
