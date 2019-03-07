@@ -240,6 +240,7 @@ ul input {
 
 .items {
   text-align: center;
+  display: flex;
 }
 
 .items img {
@@ -285,6 +286,10 @@ ul input {
   display: inline-block;
   margin-top: -53px;
   height: 120px;
+}
+
+.col {
+  flex: 1;
 }
 
 @media only screen and (max-width:950px) {
@@ -338,11 +343,6 @@ ul input {
 		margin: 0 0 5px 0;
   }
 
-  .items {
-    width: 500%;
-    display: inline-grid;
-  }
-
   .shop {
     margin-left: 100px;
   }
@@ -352,9 +352,14 @@ ul input {
   }
 }
 
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1125px) {
   .items {
     
+  }
+}
 
+@media (max-width: 400px) {
+  .items {
+    display: block;
   }
 }
