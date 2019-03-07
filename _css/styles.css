@@ -286,6 +286,7 @@ ul input {
   display: inline-block;
   margin-top: -53px;
   height: 120px;
+  border-bottom: 4px solid rgb(149, 172, 228);
 }
 
 .col {
