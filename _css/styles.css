@@ -329,8 +329,10 @@ ul input {
 }
 
 .blue-box {
-  text-align: center;
   margin-top: -4px;
+  width: 98.3%;
+  display: flow-root;
+  text-align: center;
 }
 
 .blue-box h1 {
