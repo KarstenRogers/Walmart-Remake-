@@ -261,7 +261,7 @@ ul input {
 
 .columns {
   float: left;
-  width: 33.33%;
+  column-count: 3;
 }
 
 .rows:after {
@@ -292,6 +292,11 @@ ul input {
   flex: 1;
 }
 
+.columns img {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width:950px) {
 
 }
@@ -311,6 +316,14 @@ ul input {
 @media only screen and (max-width:876px) {
   .search-box {
     width: auto;
+  }
+
+  .columns {
+    column-count: 2;
+  }
+
+  .no-show {
+    display: none;
   }
 }
 
@@ -354,6 +367,10 @@ ul input {
 
 @media (max-width: 520px) {
   .items {
+    column-count: 1;
+  }
+
+  .columns {
     column-count: 1;
   }
 }
