@@ -302,6 +302,7 @@ ul input {
   margin-top: 50px;
   margin-left: 10px;
   display: flex;
+  justify-content: center;
 }
 
 .blue-box {
@@ -310,6 +311,7 @@ ul input {
   color: white;
   padding-top: 100px;
   padding-left: 17px;
+  margin-right: 5px;
 }
 
 .blue-box h1 {
@@ -321,8 +323,23 @@ ul input {
 
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1151px) {
+.windex {
+  display: grid;
+}
 
+.blue-box {
+  text-align: center;
+  margin-top: -4px;
+}
+
+.blue-box h1 {
+
+}
+
+.blue-box p {
+
+ }
 }
 
 @media only screen and (max-width:750px) {
