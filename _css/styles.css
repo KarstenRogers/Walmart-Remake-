@@ -218,6 +218,7 @@ ul input {
 
 .shop {
   margin-top: 100px;
+  margin-left: 100px;
 }
 
 .ad {
@@ -312,6 +313,7 @@ ul input {
   padding-top: 100px;
   padding-left: 17px;
   margin-right: 5px;
+  height: 314.3px;
 }
 
 .blue-box h1 {
@@ -417,6 +419,10 @@ ul input {
     display: flex;
     justify-content: center;
     margin-left: 125px;
+  }
+
+  .fa-spinner {
+    margin-left: 207px;
   }
 }
 
