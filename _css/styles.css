@@ -340,11 +340,32 @@ ul input {
 
 .spring {
   display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+  justify-content: center;
 }
 
 .right-side {
   column-count: 2;
   text-align: center;
+  margin-top: 30px;
+}
+
+.road {
+  margin-top: 140px;
+  margin-left: 25px;
+}
+
+.beach {
+  margin-top: 140px;
+}
+
+.camp {
+  margin-left: 20px;
+}
+
+.right-side p {
+  margin-top: 25px;
 }
 
 @media only screen and (max-width:1151px) {
