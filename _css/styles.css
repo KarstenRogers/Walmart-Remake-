@@ -338,6 +338,15 @@ ul input {
   height: 187.75px;
 }
 
+.spring {
+  display: flex;
+}
+
+.right-side {
+  column-count: 2;
+  text-align: center;
+}
+
 @media only screen and (max-width:1151px) {
 .windex {
   display: grid;
