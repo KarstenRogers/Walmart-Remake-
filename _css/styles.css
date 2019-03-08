@@ -368,6 +368,36 @@ ul input {
   margin-top: 25px;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.text-box {
+  display: flex;
+  width: 600px;
+  padding: 0.5em 1em;
+  margin-left: 46px;
+}
+
+input {
+  flex-grow: 1;
+}
+button {
+  margin-left: 10px;
+  width: 127px;
+  height: 52px;
+  background-color: black;
+  color: white;
+}
+
+.footer-icons {
+  margin-left: 100px;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
 
 
 @media only screen and (max-width:1151px) {
