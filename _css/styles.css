@@ -366,6 +366,7 @@ ul input {
 
 .right-side p {
   margin-top: 25px;
+  margin-left: 25px;
 }
 
 
@@ -450,6 +451,7 @@ ul input {
     display: flex;
     justify-content: center;
     margin-left: 125px;
+    width: auto;
   }
 
   .fa-spinner {
