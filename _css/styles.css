@@ -323,6 +323,19 @@ ul input {
 
 }
 
+.experience {
+  display: flex;
+  column-count: 4;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.experience img {
+  width: 281.5px;
+  height: 187.75px;
+}
+
 @media only screen and (max-width:1151px) {
 .windex {
   display: grid;
@@ -335,13 +348,15 @@ ul input {
   text-align: center;
 }
 
-.blue-box h1 {
-
+.experience {
+  column-count: 2;
+  display: block;
+  text-align: center;
 }
 
-.blue-box p {
-
- }
+.col {
+  margin-top: 8px;
+}
 }
 
 @media only screen and (max-width:750px) {
@@ -399,6 +414,10 @@ ul input {
 
   .see-more {
     margin-top: 12px;
+  }
+
+  .experience {
+    column-count: 1;
   }
 }
 
