@@ -368,6 +368,8 @@ ul input {
   margin-top: 25px;
 }
 
+
+
 @media only screen and (max-width:1151px) {
 .windex {
   display: grid;
@@ -397,11 +399,10 @@ ul input {
   }
 }
 
-@media only screen and (max-width:876px) {
-  .no-show {
-    display: none;
-  }
-
+@media only screen and (max-width:1295px) {
+.spring {
+  display: grid;
+}
   
 }
 
@@ -472,6 +473,14 @@ ul input {
 
   .experience {
     column-count: 1;
+  }
+
+  .right-side {
+    column-count: 1;
+  }
+
+  .road {
+    margin-bottom: 100px;
   }
 }
 
