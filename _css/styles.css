@@ -370,7 +370,7 @@ ul input {
 
 .footer {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
   margin-top: 50px;
 }
 
@@ -378,7 +378,8 @@ ul input {
   display: flex;
   width: 600px;
   padding: 0.5em 1em;
-  margin-left: 46px;
+  margin-right: 250px;
+  margin-left: 146px;
 }
 
 input {
@@ -393,9 +394,7 @@ button {
 }
 
 .footer-icons {
-  margin-left: 100px;
-  font-size: 24px;
-  margin-top: 24px;
+ 
 }
 
 
