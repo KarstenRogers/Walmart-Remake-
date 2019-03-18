@@ -288,6 +288,7 @@ ul input {
   margin-top: -53px;
   height: 120px;
   border-bottom: 4px solid rgb(149, 172, 228);
+  padding: 30px;
 }
 
 .col {
@@ -372,14 +373,16 @@ ul input {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .text-box {
   display: flex;
   width: 600px;
   padding: 0.5em 1em;
-  margin-right: 250px;
-  margin-left: 146px;
+  margin-right: 190px;
+  margin-left: 96px;
+  margin-top: -33px;
 }
 
 input {
@@ -397,6 +400,18 @@ button {
  
 }
 
+.social-icons .fa {
+  margin-right: 45px;
+}
+
+.mobile {
+  display: -webkit-inline-box;
+  margin-left: 10px;
+}
+
+.mobile .fa {
+  margin-right: 10px;
+}
 
 
 @media only screen and (max-width:1151px) {
@@ -431,6 +446,23 @@ button {
 @media only screen and (max-width:1295px) {
 .spring {
   display: grid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons {
+  margin-top: 20px;
+}
+
+.mobile {
+  margin-top: 20px;
+}
+
+.text-box {
+  margin-left: 215px;
 }
   
 }
