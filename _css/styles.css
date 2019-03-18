@@ -374,6 +374,7 @@ ul input {
   flex-direction: row;
   margin-top: 100px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .text-box {
@@ -557,6 +558,14 @@ button {
   .left-side img {
     width: 100%;
     height: auto;
+  }
+
+  .items h4 {
+    display: none;
+  }
+
+  .items{
+    display: grid;
   }
 }
 
