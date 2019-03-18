@@ -372,7 +372,7 @@ ul input {
 .footer {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 100px;
   flex-wrap: wrap;
 }
 
@@ -411,6 +411,22 @@ button {
 
 .mobile .fa {
   margin-right: 10px;
+}
+
+.footer-texts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
