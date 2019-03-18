@@ -466,7 +466,7 @@ button {
 }
 
 .col {
-  margin-top: 8px;
+  margin-top: 30px;
 }
 }
 
@@ -547,7 +547,6 @@ button {
   .category {
     display: flex;
     justify-content: center;
-    margin-left: 125px;
   }
 
   .fa-spinner {
@@ -625,6 +624,10 @@ button {
 
 @media only screen and (max-width:721px) {
   .footer-img {
-
+   margin-top: -4px;
+  width: 98.3%;
+  display: flow-root;
+  text-align: center;
   }
+
 }
