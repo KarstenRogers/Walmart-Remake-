@@ -475,6 +475,10 @@ button {
 .text-box {
   margin-left: 215px;
 }
+
+.text-box input {
+  width: inherit;
+}
   
 }
 
@@ -566,6 +570,10 @@ button {
 
   .items{
     display: grid;
+  }
+
+  .text-box input {
+    width: inherit;
   }
 }
 
