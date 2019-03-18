@@ -314,7 +314,7 @@ ul input {
   padding-top: 100px;
   padding-left: 17px;
   margin-right: 5px;
-  height: 314.3px;
+  height: auto;
 }
 
 .blue-box h1 {
@@ -616,5 +616,11 @@ button {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width:721px) {
+  .footer-img {
+
   }
 }
