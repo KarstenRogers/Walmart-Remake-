@@ -449,7 +449,7 @@ button {
 
 .blue-box {
   margin-top: -4px;
-  width: 98.3%;
+  width: auto;
   display: flow-root;
   text-align: center;
 }
