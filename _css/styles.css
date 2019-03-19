@@ -425,7 +425,7 @@ button {
 
 .col-img-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 30px;
   flex-direction: row;
   flex-wrap: wrap;
@@ -439,6 +439,12 @@ button {
 
 .col h3 {
   margin-top: 20px;
+}
+
+.col-img-1 img {
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
 }
 
 
